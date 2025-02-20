@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="Cambridge Memorial Hospital" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="">
+
+  <title>Cambridge memorial hospital </title>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <!--owl slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- font awesome style -->
+  <link href="css/font-awesome.min.css" rel="stylesheet" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+
+</head>
+
+<body class="sub_page">
+
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container ">
+          <a class="navbar-brand" href="index.html">
+            <span>
+              <img src="./images/logo.png" alt="">
+            </span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class=""> </span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="about.html"> About <span class="sr-only">(current)</span> </a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="departmentsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Departments
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="departmentsDropdown">
+                  <li><a class="dropdown-item" href="facilities.html">Facilities</a></li>
+                  <li><a class="dropdown-item" href="services.html">Services</a></li>
+                  <li><a class="dropdown-item" href="departments.html">Departments</a></li>
+                </ul>
+              </li>
+              
+              <!-- Add this Bootstrap 5 JS and jQuery if not already included -->
+              <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+              <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="appointment.html" id="doctorsDropdown" role="button" data-bs-toggle="dropdown" >
+                  Doctors
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="doctorsDropdown">
+                  <li><a class="dropdown-item" href="appointment.html">Book Appointment</a></li>
+                  <li><a class="dropdown-item" href="doctors.html">Doctors Details</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="test.html">contact us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="vacancies.html">Vacancies</a>
+              </li>
+              
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+
+
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            max-width: 1200px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            border-bottom: 3px solid #0073e6;
+            padding-bottom: 5px;
+        }
+        .service-box {
+            background: #eef7ff;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            transition: 0.3s;
+            position: relative;
+        }
+        .service-box:hover {
+            background: #d6ebff;
+        }
+        .book-button {
+            background-color: #0073e6;
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 5px;
+            position: absolute;
+            right: 15px;
+            bottom: 15px;
+        }
+        .book-button:hover {
+            background-color: #005bb5;
+        }
+    </style>
+</head>
+<body>
+   
+    
+    <main>
+        <section>
+            <h2>Our Services</h2>
+            <div class="service-box">
+                <h3>General Services</h3>
+                <ul>
+                    <li>Outpatient Consultation</li>
+                    <li>Emergency Services</li>
+                    <li>Pharmacy</li>
+                </ul>
+                <a href="appointment.html" class="book-button">Book an Appointment</a>
+            </div>
+            <div class="service-box">
+                <h3>Health Checkup</h3>
+                <ul>
+                    <li>Basic Health Screening</li>
+                    <li>Advanced Diagnostic Tests</li>
+                </ul>
+                <a href="appointment.html" class="book-button">Book an Appointment</a>
+            </div>
+            <div class="service-box">
+                <h3>Specialties</h3>
+                <ul>
+                    <li>Cardiology</li>
+                    <li>Neurology</li>
+                    <li>Orthopedics</li>
+                </ul>
+                <a href="appointment.html" class="book-button">Book an Appointment</a>
+            </div>
+        </section>
+        
+        <section>
+            <h2>Our Centres</h2>
+            <div class="service-box">
+                <h3>Diagnostic Centre</h3>
+                <ul>
+                    <li>Lab Testing</li>
+                    <li>Radiology</li>
+                </ul>
+                <a href="appointment.html" class="book-button">Book an Appointment</a>
+            </div>
+            <div class="service-box">
+                <h3>Cancer Centre</h3>
+                <ul>
+                    <li>Oncology Consultation</li>
+                    <li>Chemotherapy</li>
+                </ul>
+                <a href="appointment.html" class="book-button">Book an Appointment</a>
+            </div>
+            <div class="service-box">
+                <h3>Heart Centre</h3>
+                <ul>
+                    <li>ECG & ECHO</li>
+                    <li>Cardiac Surgery</li>
+                </ul>
+                <a href="appointment.html" class="book-button">Book an Appointment</a>
+            </div>
+            <div class="service-box">
+                <h3>Community Health Centre</h3>
+                <ul>
+                    <li>Public Health Programs</li>
+                    <li>Vaccination Camps</li>
+                </ul>
+                <a href="appointment.html" class="book-button">Book an Appointment</a>
+            </div>
+        </section>
+    </main>
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 footer_col">
+          <div class="footer_contact">
+            <h4>
+              Reach at..
+            </h4>
+            <div class="contact_link_box">
+              <a href="https://maps.app.goo.gl/Sd3334KFZa9tNmNT6">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +92 3229205319
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  shafqat2552@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="footer_social">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 footer_col">
+          <div class="footer_detail">
+            <h4>
+              About
+            </h4>
+            <p>
+              We provide the best healthcare services with expert doctors, modern facilities, and compassionate care. Our hospital ensures patient safety, advanced treatments, emergency support, and a healing environment. Your health and well-being are our top priorities.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2 mx-auto footer_col">
+          <div class="footer_link_box">
+            <h4>
+              Links
+            </h4>
+            <div class="footer_links">
+              <a class="active" href="index.html">
+                Home
+              </a>
+              <a class="" href="about.html">
+                About
+              </a>
+              <a class="" href="departments.html">
+                Departments
+              </a>
+              <a class="" href="doctors.html">
+                Doctors
+              </a>
+              <a class="" href="contact.html">
+                Contact Us
+              </a> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+          <h4>Newsletter</h4>
+          <form id="subscribeForm">
+              <input type="email" id="emailInput" placeholder="Enter your email" required />
+              <button type="submit">Subscribe</button>
+          </form>
+          <p id="successMessage" style="color: green; display: none;">✅ Email Sent! Check your inbox.</p>
+      </div>
+  </div>
+</div>
+
+
+<script>
+document.getElementById("subscribeForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Form ko submit hone se rokta hai
+
+  var email = document.getElementById("emailInput").value;
+
+  if (email) {
+      alert("✅ Email Sent! Check your inbox."); // Pop-up message
+      document.getElementById("successMessage").style.display = "block"; // Success message dikhaye
+      document.getElementById("emailInput").value = ""; // Input field ko empty kare
+  }
+});
+</script>
+      <div class="footer-info">
+        <p>
+          &copy; <span id="displayYear"></span> All Rights Reserved By
+          <a href="https://html.design/">Cambridge Memorial Hospital<br><br></a>
+          &copy; <span id="displayYear"></span> Distributed By
+          <a href="https://themewagon.com/">Hospital Services</a>
+        </p>
+
+      </div>
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <!-- jQery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- popper js -->
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
+  <!-- bootstrap js -->
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+  <!-- owl slider -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <!-- custom js -->
+  <script type="text/javascript" src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://www.bing.com/maps?mepi=35%7ELocal%7ETopOfPage%7EEntity_Vertical_List_Card&ty=17&q=cambridge+hospital
+  +address&segment=Local&ppois=42.374813079833984_-71.10438537597656_CHA+Cambridge+Hospital_YN390x400755933%7E42.3749771118
+  16406_-71.10459899902344_CHA+Primary+Care%2C+Cambridge+Hospital_YN873x135261221%7E&sei=0&cp=42.374778%7E-71.104202&child
+  =%26ty%3D18%26q%3DCHA%2520Primary%2520Care%252C%2520Cambridge%2520Hospital%26ss%3Dypid.YN873x135261221%26segment%3DLocal
+  %26ppois%3D42.374977111816406_-71.10459899902344_CHA%2520Primary%2520Care%252C%2520Cambridge%2520Hospital_YN873x135261221
+  %7E%26cp%3D42.374977%7E-71.104599%26EnableMapViewChange%3Dtrue&FORM=MPSRPL&lvl=16.0">
+  </script>
+  <!-- End Google Map -->
+
+</body>
+
+</html>

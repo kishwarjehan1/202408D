@@ -1,0 +1,53 @@
+<section class="info_section layout_padding2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3 info_col">
+                <div class="info_contact">
+                    <h4>Address</h4>
+                    <div class="contact_link_box">
+                        <a href="">
+                            <i class="fa fa-map-marker" aria-hidden="true"></i>
+                            <span> Location </span>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-phone" aria-hidden="true"></i>
+                            <span> Call +92 123456789 </span>
+                        </a>
+                        <a href="">
+                            <i class="fa fa-envelope" aria-hidden="true"></i>
+                            <span> info@yourdomain.com </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 info_col">
+                <div class="info_detail">
+                    <h4>Company</h4>
+                    <p> We are dedicated to providing the best healthcare services with a commitment to excellence and patient care. </p>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3 info_col">
+                <h4>Newsletter</h4>
+                <form id="subscribeForm">
+                    <input type="email" id="emailInput" placeholder="Enter your email" required />
+                    <button type="submit">Subscribe</button>
+                </form>
+                <p id="successMessage" style="color: green; display: none;">✅ Email Sent! Check your inbox.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    document.getElementById("subscribeForm").addEventListener("submit", function(event) {
+        event.preventDefault(); // Form ko submit hone se rokta hai
+
+        var email = document.getElementById("emailInput").value;
+
+        if (email) {
+            alert("✅ Email Sent! Check your inbox."); // Pop-up message
+            document.getElementById("successMessage").style.display = "block"; // Success message dikhaye
+            document.getElementById("emailInput").value = ""; // Input field ko empty kare
+        }
+    });
+</script>

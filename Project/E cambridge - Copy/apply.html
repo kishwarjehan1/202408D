@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="">
+  <title>Cambridge Memorial Hospital - Apply For Vacancy</title>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+<body class="sub_page">
+  <div class="hero_area">
+    <header class="header_section">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg custom_nav-container">
+          <a class="navbar-brand" href="index.html">
+            <span><img src="./images/logo.png" alt=""></span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
+            <span class=""></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+              <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+              <li class="nav-item"><a class="nav-link" href="departments.html">Departments</a></li>
+              <li class="nav-item"><a class="nav-link" href="doctors.html">Doctors</a></li>
+              <li class="nav-item active"><a class="nav-link" href="test.html">Contact Us</a></li>
+              <li class="nav-item"><a class="nav-link" href="vacancies.html">Vacancies</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </header>
+  </div>
+
+
+
+
+
+
+      <style>
+          /* General Section Styling */
+          .apply-section {
+              background-color: #f4f7fa;
+              padding: 40px 0;
+              font-family: Arial, sans-serif;
+          }
+  
+          .container {
+              width: 80%;
+              margin: 0 auto;
+              max-width: 900px;
+          }
+  
+          h1 {
+              text-align: center;
+              font-size: 32px;
+              color: #333;
+              margin-bottom: 20px;
+          }
+  
+          p {
+              text-align: center;
+              font-size: 16px;
+              color: #a2a2a2;
+              margin-bottom: 40px;
+          }
+  
+          /* Form Styling */
+          .apply-form {
+              background-color: #ffffff;
+              padding: 30px;
+              border-radius: 8px;
+              box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+          }
+  
+          .form-group {
+              margin-bottom: 20px;
+          }
+  
+          label {
+              font-size: 14px;
+              color: #333;
+              margin-bottom: 8px;
+              display: block;
+          }
+  
+          input, textarea {
+              width: 100%;
+              padding: 12px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+              box-sizing: border-box;
+              font-size: 14px;
+          }
+  
+          input[type="file"] {
+              border: none;
+              background-color: transparent;
+              padding: 8px 0;
+          }
+  
+          /* Placeholder Styling */
+          input::placeholder, textarea::placeholder {
+              color: #aaa;
+          }
+  
+          /* Focus Effects */
+          input:focus, textarea:focus {
+              outline: none;
+              border-color: #007bff;
+          }
+  
+          /* Submit Button Styling */
+          .btn-submit {
+              width: 100%;
+              padding: 15px;
+              background-color: #007bff;
+              color: #fff;
+              font-size: 16px;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+              transition: background-color 0.3s;
+          }
+  
+          .btn-submit:hover {
+              background-color: #0056b3;
+          }
+  
+          /* Responsive Design */
+          @media (max-width: 768px) {
+              .container {
+                  width: 90%;
+              }
+  
+              h1 {
+                  font-size: 28px;
+              }
+          }
+      </style>
+  </head>
+  <body>
+    <button onclick="history.back()" class="btn btn-secondary mb-3">Back</button>
+  
+  <section class="apply-section">
+      <div class="container">
+          <h1>Apply for Vacancy</h1>
+          <p>Fill in the details below to apply for the desired position.</p>
+          
+          <form class="apply-form" action="submit_application.php" method="post" enctype="multipart/form-data">
+              <div class="form-group">
+                  <label for="name">Full Name</label>
+                  <input type="text" id="name" name="name" required placeholder="Enter your full name">
+              </div>
+              
+              <div class="form-group">
+                  <label for="email">Email Address</label>
+                  <input type="email" id="email" name="email" required placeholder="Enter your email">
+              </div>
+              
+              <div class="form-group">
+                  <label for="phone">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" required placeholder="Enter your phone number">
+              </div>
+              
+              <div class="form-group">
+                  <label for="position">Position Applied For</label>
+                  <input type="text" id="position" name="position" required placeholder="Enter the job title">
+              </div>
+              
+              <div class="form-group">
+                  <label for="cover-letter">Cover Letter</label>
+                  <textarea id="cover-letter" name="cover-letter" rows="4" required placeholder="Write your cover letter here..."></textarea>
+              </div>
+              
+              <div class="form-group">
+                  <label for="cv">Upload Your CV Here:</label>
+                  <input type="file" id="cv" name="cv" required accept=".pdf,.doc,.docx">
+              </div>
+              
+              <button type="submit" class="btn-submit" href="index.html">Submit Application</button>
+          </form>
+      </div>
+  </section>
+  
+  </body>
+  </html>
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 col-lg-3 footer_col">
+          <div class="footer_contact">
+            <h4>
+              Reach at..
+            </h4>
+            <div class="contact_link_box">
+              <a href="https://maps.app.goo.gl/Sd3334KFZa9tNmNT6">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                <span>
+                  Location
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                <span>
+                  Call +92 3229205319
+                </span>
+              </a>
+              <a href="">
+                <i class="fa fa-envelope" aria-hidden="true"></i>
+                <span>
+                  shafqat2552@gmail.com
+                </span>
+              </a>
+            </div>
+          </div>
+          <div class="footer_social">
+            <a href="">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+            <a href="">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 footer_col">
+          <div class="footer_detail">
+            <h4>
+              About
+            </h4>
+            <p>
+              We provide the best healthcare services with expert doctors, modern facilities, and compassionate care. Our hospital ensures patient safety, advanced treatments, emergency support, and a healing environment. Your health and well-being are our top priorities.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-2 mx-auto footer_col">
+          <div class="footer_link_box">
+            <h4>
+              Links
+            </h4>
+            <div class="footer_links">
+              <a class="active" href="index.html">
+                Home
+              </a>
+              <a class="" href="about.html">
+                About
+              </a>
+              <a class="" href="departments.html">
+                Departments
+              </a>
+              <a class="" href="doctors.html">
+                Doctors
+              </a>
+              <a class="" href="contact.html">
+                Contact Us
+              </a> 
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 info_col">
+          <h4>Newsletter</h4>
+          <form id="subscribeForm">
+              <input type="email" id="emailInput" placeholder="Enter your email" required />
+              <button type="submit">Subscribe</button>
+          </form>
+          <p id="successMessage" style="color: green; display: none;">✅ Email Sent! Check your inbox.</p>
+      </div>
+  </div>
+</div>
+
+<script>
+document.getElementById("subscribeForm").addEventListener("submit", function(event) {
+  event.preventDefault(); // Form ko submit hone se rokta hai
+
+  var email = document.getElementById("emailInput").value;
+
+  if (email) {
+      alert("✅ Email Sent! Check your inbox."); // Pop-up message
+      document.getElementById("successMessage").style.display = "block"; // Success message dikhaye
+      document.getElementById("emailInput").value = ""; // Input field ko empty kare
+  }
+});
+</script>
+  
+  <div class="footer-info">
+    <p>
+      &copy; <span id="displayYear"></span> All Rights Reserved By
+      <a href="https://html.design/">Cambridge Memorial Hospital<br><br></a>
+      &copy; <span id="displayYear"></span> Distributed By
+      <a href="https://themewagon.com/">Hospital Services</a>
+    </p>
+  </div>
+</footer>
+
+<script>
+  document.getElementById("contactForm").addEventListener("submit", function(event) {
+      event.preventDefault();
+      let name = document.getElementById("name").value.trim();
+      let phone = document.getElementById("phone").value.trim();
+      let email = document.getElementById("email").value.trim();
+      let nameError = document.getElementById("nameError");
+      let phoneError = document.getElementById("phoneError");
+      let emailError = document.getElementById("emailError");
+      let isValid = true;
+      if (name.length < 2) { nameError.textContent = "Name must be at least 2 characters long."; isValid = false; } else { nameError.textContent = ""; }
+      if (phone.length !== 10) { phoneError.textContent = "Phone number must be exactly 10 digits."; isValid = false; } else { phoneError.textContent = ""; }
+      if (!/^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(email)) { emailError.textContent = "Enter a valid email address."; isValid = false; } else { emailError.textContent = ""; }
+      if (isValid) {
+          alert("Form submitted successfully!");
+          document.getElementById("contactForm").reset();
+      }
+  });
+</script>
+</body>
+</html>
